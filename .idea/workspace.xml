@@ -12,17 +12,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej3/FactoryElectronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej3/FactoryElectronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej3/IElectronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej3/IElectronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej3/Mixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej3/Mixer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej3/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej3/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej3/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej3/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej4/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej4/ComboMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej4/ComboMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej4/MediumComboMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej4/MediumComboMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej4/MegaComboMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej4/MegaComboMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej4/NormalComboMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej4/NormalComboMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen1/ej4/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen1/ej4/Seller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +55,44 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="examen1.ej5" />
       <recent name="examen1.ej3" />
       <recent name="examen1.ej1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examen1.ej1.Admin" />
       <module name="ExamenesPD.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="examen1.ej1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen1.ej4.Client" />
+      <module name="ExamenesPD.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examen1.ej4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen1.ej5.Client" />
+      <module name="ExamenesPD.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examen1.ej5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Store" />
         <item itemvalue="Application.Admin" />
