@@ -1,13 +1,13 @@
 package examen1.ej3;
 
-public class TV implements IElectronics{
+public class Fridge implements IElectronics {
     private String name;
     private String model;
     private String manufacturer;
-    private int resolution;
+    private int size;
     private int price;
 
-    public TV(int price){
+    public Fridge(int price){
         setPrice(price);
     }
 
@@ -16,7 +16,7 @@ public class TV implements IElectronics{
         System.out.println("This is a "+name);
         System.out.println("Model: "+model);
         System.out.println("Manufacturer: "+manufacturer);
-        System.out.println("Resolution: "+resolution);
+        System.out.println("Size: "+size);
         System.out.println("Its price: "+price);
         System.out.println();
     }
@@ -29,12 +29,12 @@ public class TV implements IElectronics{
         this.price = price;
     }
 
-    public int getResolution() {
-        return resolution;
+    public int getSize() {
+        return size;
     }
 
-    public void setResolution(int resolution) {
-        this.resolution = resolution;
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public String getName() {
@@ -60,5 +60,4 @@ public class TV implements IElectronics{
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
     }
-
 }

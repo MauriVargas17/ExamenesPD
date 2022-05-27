@@ -4,13 +4,27 @@ public class Radio implements IElectronics{
     private String name;
     private String model;
     private String manufacturer;
+    private int price;
+
+    public Radio(int price){
+        setPrice(price);
+    }
 
     @Override
     public void showElectronics() {
         System.out.println("This is a "+name);
         System.out.println("Model: "+model);
         System.out.println("Manufacturer: "+manufacturer);
+        System.out.println("Its price: "+price);
         System.out.println();
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public String getName() {
