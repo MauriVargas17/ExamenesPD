@@ -7,7 +7,11 @@ public class Serial {
         if(serial.length() == 10){
             this.serial = serial;
         } else {
-            this.serial = "1234567890";
+            this.serial = "0000000000";
         }
+    }
+
+    public String getID() {
+        return serial;
     }
 }
